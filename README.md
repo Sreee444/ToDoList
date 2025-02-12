@@ -93,7 +93,7 @@ This is a simple and interactive **To-Do List** web application that allows user
 You can contact me at:
 
 - **GitHub Profile**: [https://github.com/Sreenandhu](https://github.com/Sreee444)
-- **Email Address**: [https://www.Email.com/in/Sreenandhu](sreenandhukj10@gmail.com)
+- **Email Address**: sreenandhukj10@gmail.com
 
 ## License
 
@@ -107,6 +107,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**Note**: Please replace `yourusername` and `yourprofile` with your actual GitHub and LinkedIn usernames before using this `README.md`. Also, remember to add your actual screenshot files under the `screenshots` folder if you're including them.
 
-Let me know if you need any further customization!
