@@ -1,59 +1,112 @@
 # To-Do List with Dark Mode
 
-A simple and interactive To-Do List web application with support for dark mode. This app allows users to add, edit, delete, and mark tasks as complete. Additionally, users can set a due date for each task and visually prioritize tasks based on the due date. The application also features a random quote generator and a dark mode toggle.
+This is a simple and interactive **To-Do List** web application that allows users to add, edit, delete, and mark tasks as complete. The app also lets users set task due dates and visually prioritizes tasks based on the selected due date (overdue tasks are highlighted). Additionally, the app features a **dark mode toggle**, **random inspirational quotes**, and an attractive **user interface**.
 
 ## Features
 
-- **Add Tasks**: Users can add tasks to the list.
-- **Edit Tasks**: Tasks can be edited at any time.
-- **Delete Tasks**: Tasks can be removed from the list.
-- **Complete Tasks**: Users can mark tasks as completed.
-- **Set Task Priority**: Users can set due dates for tasks and color-code tasks based on their priority (overdue or upcoming).
-- **Dark Mode**: Users can toggle between light and dark themes.
-- **Random Quotes**: Users can generate random inspirational quotes.
+### Task Management
+- **Add Tasks**: Type a task in the input box and click the "ADD" button, or press Enter to add the task.
+- **Edit Tasks**: Modify any task at any time using the pencil icon next to the task.
+- **Delete Tasks**: Remove tasks from the list by clicking the trash icon.
+- **Complete Tasks**: Tasks can be marked as complete by clicking the checkmark button. Completed tasks will have a line-through and a greenish background.
+
+### Task Prioritization
+- **Set Due Dates**: Users can set a due date for each task using the date picker. 
+- **Color-coded Tasks**: Tasks will change color based on the due date:
+  - **Overdue tasks** will have a light red background.
+  - **Upcoming tasks** will have a light green background.
+  
+### Dark Mode
+- **Dark Mode Toggle**: Switch between light and dark themes for a more comfortable viewing experience. The toggle button changes from a sun to a moon icon.
+
+### Random Quote Generator
+- **Inspiring Quotes**: Click the "Get New Quote" button to receive a new motivational quote, perfect for boosting your productivity.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Font Awesome (for icons)
+- **HTML5**: The basic structure of the web page.
+- **CSS3**: For styling and layout, including responsive design.
+- **JavaScript (Vanilla)**: For adding interactivity like task management, dark mode toggle, and random quote generation.
+- **Font Awesome**: For the icons used in the UI (edit, delete, sun/moon icons, etc.).
 
 ## Installation
 
-1. Clone this repository:
+1. **Clone this repository** to your local machine:
     ```bash
     git clone https://github.com/yourusername/to-do-list-dark-mode.git
     ```
 
-2. Navigate to the project folder:
+2. **Navigate to the project directory**:
     ```bash
     cd to-do-list-dark-mode
     ```
 
-3. Open `index.html` in your browser to start using the app.
+3. **Open the `index.html` file** in your browser:
+    - Double-click the `index.html` file to launch it in your default web browser, or drag and drop it into the browser window.
 
 ## Usage
 
-- To add a task, type in the input field and click the "ADD" button or press the Enter key.
-- To edit a task, click the pencil icon next to the task.
-- To delete a task, click the trash can icon.
-- To mark a task as complete, click the checkmark button.
-- You can set the due date for a task, and it will change color based on whether it's overdue or upcoming.
-- Click the "Get New Quote" button to generate a new inspirational quote.
-- Toggle dark mode by clicking the sun/moon icon.
+### How to Use the To-Do List:
+1. **Add a Task**:
+   - Type your task in the input box at the top and press Enter or click the **ADD** button.
+   
+2. **Edit a Task**:
+   - Click the **✏️** (edit) button next to any task to edit its text.
+   
+3. **Delete a Task**:
+   - Click the **🗑** (delete) button next to the task to remove it from the list.
+   
+4. **Complete a Task**:
+   - Click the **✔** (checkmark) button next to the task to mark it as complete. The task will be crossed out and given a green background.
+   
+5. **Set Task Due Dates**:
+   - Select a date using the **date picker** next to each task. The task's background color will change based on whether the task is overdue or upcoming.
+
+6. **Get a Random Quote**:
+   - Click the **Get New Quote** button below the To-Do List to get a random motivational quote.
+   
+7. **Dark Mode**:
+   - Toggle between dark and light mode by clicking the **sun/moon icon** at the bottom left of the page.
+
+### Visual Elements
+- The UI will dynamically adjust the background colors based on the theme (light/dark mode) and task priority (overdue or upcoming).
+  
+### Example Usage:
+1. **Add a task**: `"Buy groceries"`
+2. **Set the due date** to tomorrow.
+3. **Complete the task** once done.
+4. **Switch to dark mode** for a comfortable evening experience.
+5. **Get a random quote** for motivation while working on tasks.
 
 ## Screenshots
 
-![To-Do List Example](screenshots/todo-example.png)
+![To-Do List Screenshot](screenshots/todo-list.png)
+> *An example of the To-Do List app in light mode with tasks and the quote generator.*
+
+![Dark Mode Screenshot](screenshots/dark-mode.png)
+> *The To-Do List app in dark mode with tasks and dark theme styling.*
 
 ## Author
 
 **Sreenandhu Jacy**
 
-- [GitHub Profile](https://github.com/yourusername)
-- [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+You can contact me at:
+
+- **GitHub Profile**: [https://github.com/yourusername](https://github.com/yourusername)
+- **LinkedIn Profile**: [https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+- [Font Awesome](https://fontawesome.com) for providing the icons.
+- The [Inspiration](https://www.brainyquote.com) for the motivational quotes.
+- Special thanks to all contributors and open-source community for their support.
+
+---
+
+**Note**: Please replace `yourusername` and `yourprofile` with your actual GitHub and LinkedIn usernames before using this `README.md`. Also, remember to add your actual screenshot files under the `screenshots` folder if you're including them.
+
+Let me know if you need any further customization!
