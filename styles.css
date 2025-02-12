@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a82fb, #fc5c7d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    color: white;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+body.dark-mode .container {
+    background-color: #34495e;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+body.dark-mode h2 {
+    color: #f0f0f0;
+}
+
+.task-input {
+    width: 70%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #e7e7e7;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.task-input:focus {
+    border-color: #6a82fb;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .task {
+    background-color: #4b5b6e;
+    color: #0ee950;
+}
+
+.task.complete {
+    text-decoration: line-through;
+    background-color: #a3d8a3;
+    color: #2e8b57;
+}
+
+.task-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.task button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.task .edit-button {
+    color: #f39c12;
+}
+
+.task .delete-button {
+    color: #e74c3c;
+}
+
+.task button:hover {
+    color: #333333;
+}
+
+.priority-date {
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid #e7e7e7;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffffff;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .priority-date {
+    background-color: #34495e;
+    color: white;
+}
+
+.priority-date:focus {
+    background-color: #6a82fb;
+}
+
+.quote-box {
+    background-color: #f5a623;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+    transition: background-color 0.3s;
+}
+
+body.dark-mode .quote-box {
+    background-color: #e74c3c;
+}
+
+.quote-box p {
+    font-size: 18px;
+    font-style: italic;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+body.dark-mode .quote-box p {
+    color: #f0f0f0;
+}
+
+.quote-box button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .quote-box button {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.quote-box button:hover {
+    background-color: #e67e22;
+}
+
+.dark-mode-toggle {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-toggle i {
+    font-size: 20px;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #e67e22;
+}
+
+.enter-button {
+    background-color: #0c9736;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.task-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.task-input-container input,
+.task-input-container button {
+    width: 48%;
+}
+
+.task .priority-date {
+    margin-left: 15px;
+    width: 120px;
+}
+
+.task .priority-date::-webkit-calendar-picker-indicator {
+    background-color: #6a82fb;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
