@@ -92,8 +92,8 @@ This is a simple and interactive **To-Do List** web application that allows user
 
 You can contact me at:
 
-- **GitHub Profile**: [https://github.com/yourusername](https://github.com/Sreee444)
-- **LinkedIn Profile**: [https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
+- **GitHub Profile**: [https://github.com/Sreenandhu](https://github.com/Sreee444)
+- **Email Address**: [https://www.Email.com/in/Sreenandhu](sreenandhukj10@gmail.com)
 
 ## License
 
