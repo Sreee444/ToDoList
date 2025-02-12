@@ -80,10 +80,10 @@ This is a simple and interactive **To-Do List** web application that allows user
 
 ## Screenshots
 
-![To-Do List Screenshot](screenshots/todo-list.png)
+![To-Do List Screenshot](todo-list.png)
 > *An example of the To-Do List app in light mode with tasks and the quote generator.*
 
-![Dark Mode Screenshot](screenshots/dark-mode.png)
+![Dark Mode Screenshot](dark-mode.png)
 > *The To-Do List app in dark mode with tasks and dark theme styling.*
 
 ## Author
@@ -92,7 +92,7 @@ This is a simple and interactive **To-Do List** web application that allows user
 
 You can contact me at:
 
-- **GitHub Profile**: [https://github.com/yourusername](https://github.com/yourusername)
+- **GitHub Profile**: [https://github.com/yourusername](https://github.com/Sreee444)
 - **LinkedIn Profile**: [https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
 
 ## License
