@@ -93,7 +93,7 @@ This is a simple and interactive **To-Do List** web application that allows user
 You can contact me at:
 
 - **GitHub Profile**: [https://github.com/Sreenandhu](https://github.com/Sreee444)
-- **Email Address**: sreenandhukj10@gmail.com
+
 
 ## License
 
